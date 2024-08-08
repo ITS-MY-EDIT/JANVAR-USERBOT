@@ -11,7 +11,7 @@
 > The easy way to host this bot, deploy to Heroku 
 <br>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/sachin-x-thomas/minduserbot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/ITS-MY-EDIT/JANVAR-USERBOT)
 
 ## 🖇 Generating Pyrogram String Session
 
