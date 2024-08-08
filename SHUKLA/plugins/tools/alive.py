@@ -31,7 +31,7 @@ async def _human_time_duration(seconds):
 
 @app.on_message(cdz(["alive"])  & (filters.me | filters.user(SUDO_USER)))
 async def alive(client: Client, message: Message):
-    r = await message.reply_text("** #𝙵𝙴𝙴𝙻_4𝚂𝚃 **")
+    r = await message.reply_text("** O% 𓈆🪫𖣔जानवर🚬𝆺꯭𝅥༎ࠫ𖣔🪫𝆺꯭𝅥༎ࠫ **")
     start = time()
     current_time = datetime.utcnow()
     ping = time() - start
@@ -39,7 +39,7 @@ async def alive(client: Client, message: Message):
     uptime = await _human_time_duration(int(uptime_sec))
     await message.delete()
     await r.edit(
-        f"︎ [ 😻 #𝙸_𝙼_4𝚂𝚃_𝙵ʏᴛᴇʀ 👻 ](https://t.me/II_4ST_READY_FOR_FUCKING_II) ︎︎︎\n\n"
+        f"O% 𓈆🪫𖣔जानवर🚬𝆺꯭𝅥༎ࠫ𖣔🪫𝆺꯭𝅥༎ࠫ ︎︎︎︎\n\n"
         f"💌𝐕ᴇʀsɪᴏɴ ⁂1.0\n"
         f"💥𝐏ɪɴɢ ⁂ {ping * 1000:.3f}ᴍs\n"
         f"💭𝐔ᴘᴛɪᴍᴇ ⁂ {uptime}\n"
@@ -50,7 +50,7 @@ async def alive(client: Client, message: Message):
 
 @app.on_message(cdz(["ping"])  & (filters.me | filters.user(SUDO_USER)))
 async def ping(client: Client, message: Message):
-    r = await message.reply_text("** #𝙵𝙴𝙴𝙻_4𝚂𝚃**")
+    r = await message.reply_text("**O% 𓈆🪫𖣔जानवर🚬𝆺꯭𝅥༎ࠫ𖣔🪫𝆺꯭𝅥༎ࠫ**")
     start = time()
     current_time = datetime.utcnow()
     ping = time() - start
@@ -58,12 +58,12 @@ async def ping(client: Client, message: Message):
     uptime = await _human_time_duration(int(uptime_sec))
     await message.delete()
     await r.edit(
-        f" [ 😻 #𝚄𝚁_𝙳𝙰𝙳𝙳𝚈_4𝚂𝚃_𝙷𝙴𝚁𝙴 👻 ](https://t.me/II_4ST_READY_FOR_FUCKING_II) \n\n"
+        f"O% 𓈆🪫𖣔जानवर🚬𝆺꯭𝅥༎ࠫ𖣔🪫𝆺꯭𝅥༎ࠫ \n\n"
         f"🌐➍ˢᵀ 𝐏𝙸𝙽𝙶 ❄  ⁂ {ping * 1000:.3f}ᴍs\n"
         f"‌‌👑🇸𝐔𝐏𝐄𝐑 ‌🇴𝐖𝐍𝐄𝐑 💕  ⁂ {client.me.mention}\n"
         f"⚡🇹𝐈𝐌𝐄 🔥 ⁂ {uptime}\n"
               )
-@app.on_message(cdz(["repo"])  & (filters.me | filters.user(SUDO_USER)))
+@app.on_message(cdz(["repopspkssjksksjsjs"])  & (filters.me | filters.user(SUDO_USER)))
 async def ping(client: Client, message: Message):
     r = await message.reply_text("**𝐑ᴇᴘᴏ**")
     start = time()
